@@ -1,0 +1,36 @@
+<?php
+// PREENCHA AS INFORMAÇÕES SOLICITADAS ABAIXO
+// PARA EDITAR A MANEIRA COMO VOCÊ DESEJA QUE SEJA EXIBIDO O WEBSITE.
+// EDITE TODAS AS INFORMAÇÕES QUE SE ENCONTRAM ENTRE
+// INÍCIO E FIM DA EDIÇÃO PARA QUE O SCRIPT POSSA
+// RODAR DE FORMA ADEQUADA.
+
+
+// INICIO DA EDIÇÃO -------
+
+// CAMINHO NO SERVIDOR WEB PARA A PASTA ONDE SE ENCONTRA INSTALADO O SCRIPT
+$home_dir = "/home/SERVER/public_html/juris/"; // COM BARRA NO FINAL!
+
+// ENDEREÇO WEB DO SCRIPT DE ACOMPANHAMENTO PROCESSUAL
+$web_path = "http://www.YOURDOMAIN.com.br/juris/"; // COM BARRA NO FINAL!
+
+// CONFIGURAÇÕES DO BANCO DE DADOS
+$usr = "";  // USUÁRIO DO BANCO DE DADOS
+$pwd = "";	  // SENHA DO BANCO DE DADOS
+$db = "";	  // NOME DO BANCO DE DADOS
+$host = "localhost";	  // SERVIDOR DO BANCO DE DADOS
+
+
+// FIM DA EDIÇÃO ----------
+
+// NÃO EDITE NADA ABAIXO DESTAS LINHAS.
+// QUALQUER ALTERAÇÃO NAS LINHAS ABAIXO PODERÁ 
+// RESULTAR EM UM MAL FUNCIONAMENTO DO SCRIPT.
+
+$cid = mysql_connect($host,$usr,$pwd);
+if (!$cid) { echo("ERROR: " . mysql_error() . "\n"); }
+
+$db_q = "mysql_db_query";
+$db_c = "mysql_num_rows";
+$db_f= "mysql_fetch_array";
+?>

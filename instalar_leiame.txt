@@ -1,0 +1,71 @@
+####################################
+==================================================
+WESPA JURIS 3.0 - Script em PHP de Acompanhamento Processual (26/05/2012) (c) 2012
+==================================================
+Este script em PHP permite que seu escritório de advocacia ofereça
+serviço de acompanhamento processual baseado na web para seus clientes.
+Com Wespa Juris, você e sua equipe de advogados manterão seus clientes
+sempre informados sobre o andamento dos processos de forma segura 
+e sigilosa.
+
+Link para download do Wespa Juris no GitHub:
+https://github.com/weslleyharakawa/Wespa-Juris-3.0
+
+========================================================
+Versão de Demonstração aqui:
+http://code.wcre8tive.com/wespajuris/
+Usuário: admin
+Senha: admin
+
+
+========================================
+I N S T A L A Ç Ã O 
+========================================
+
+Requerimentos:
+============================================
+- PHP 5.0 ou superior 
+- Sessão precisa funcionar
+- PHP Upload necessira estar habilitado
+- Função PHP Mail precisar estar funcionando
+- MySQL 3.23+ (3.23.33+ recomendado)
+
+
+Procedimento para instalação:
+============================================
+1. Edite o arquivo config.php que fica na pasta /includes e EDITE as conexões de banco de dados e a rota onde estará instalado o Wespa Juris
+2. Envie toda a estrutura de diretórios e seus respectivos arquivos para uma pasta no seu domínio, via FTP
+3. Usando o PHPMyAdmin, importe o conteúdo do arquivo data.sql para o banco de dados que irá ser usado pelo Wespa Juris
+4. Quando acessar o Wespa Juris por primeira vez, utilize os seguintes dados de acesso:
+   usuário: admin 
+   senha: admin
+
+
+MODIFICANDO A LOGOMARCA
+--------------------
+Você pode criar sua logo e salvá-la no como /images/logo_wespajuris.gif sempre mantendo as dimenssões de 348x80
+
+
+Suporte e ajuda para instalação:
+============================================
+ESTE SCRIPT NÃO OFERECE SUPORTE GRATUÍTO!
+
+Se você precisar de ajuda para instalar este script ou suporte 
+para uso e modificações, oferecemos esse atendimento por uma tarifa 
+bem econômica que pode ser combinada. Se deseja suporte e pode pagar 
+por isso escreva para info@wcre8tive.com
+
+
+
+
+
+
+
+
+#################################################################
+# Wespa Digital Ltda, websites, jornalismo, publicidade e multimídia #
+#################################################################
+http://www.wespadigital.com
+info@wespadigital.com
+
+Documento revisado em 26 de maio de 2012
